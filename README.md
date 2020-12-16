@@ -1,20 +1,21 @@
 ## HBIntegrationTestingProject
 ___
 
-#### Test Senaryosu Adımları
-* GET ve POST isteklerinin http statusünü kontrol et. 
-* 200 ise success kabul et.
+#### Test Scenario Steps;
 
-#### Gereksinimler: 
+* Check GET and POST request's http status  
+* Take success if returns is 200.
+
+#### Requirements: 
 * Java8+
 * Maven 3.6.1
 
-#### Kullanılan test araçları:
+#### Test Tools:
 * JUnit
 * Rest Assured
 
-Maven paketleri kurmak için
+For the install Maven package
 ```
 mvn clean package
 ```
-komutu kullanılabilir.
+this command can be use.
